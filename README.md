@@ -11,7 +11,7 @@ except IOError as e:
     exit()
 
 # Read the image
-img = cv2.imread('IMG_20230719_131411.jpg')  # Replace with your image file
+img = cv2.imread('reference_image.jpg')  # Replace with your image file
 
 # Check if image loaded successfully
 if img is None:
